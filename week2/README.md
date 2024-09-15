@@ -10,7 +10,7 @@ time that the student attempted to pass the course.
 
 Based on the requirements presented previously, draw an ER diagram using Chen notation, please try to enrich the diagram with the attributes and relationships that you consider convenient
 
-[Solution](./lab1.pdf)
+[Solution](./lab2.pdf)
 
 ## Exercise II
 #### Taking the diagram drawn in exercise I, draw a new diagram following the UML notation and in which the following constraints must be included.
@@ -28,7 +28,7 @@ Every professors should teach some course, and each course must be taught by som
 Remember it not allowed the professors to be enrolled more than once in the same course during the same semester, as it could lead to
 have scheduling problems.
 
-[Solution](./lab1ex2.pdf)
+[Solution](./lab2ex2.pdf)
 
 ## UML Notation: 
 ![uml_not](./notation.png)
