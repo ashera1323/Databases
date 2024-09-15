@@ -18,5 +18,5 @@ There’s no requirement to capture composers, group members or sidemen, recordi
 artists, albums, or tracks.
 
 [View PDF](./lab1.drawio.pdf)
-
+![Alt text](./music.png)
 
