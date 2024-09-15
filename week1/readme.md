@@ -17,6 +17,6 @@ track was last played, as well as the number of times music by an artist, from a
 There’s no requirement to capture composers, group members or sidemen, recording date or location, the source media, or any other details of
 artists, albums, or tracks.
 
-[View PDF](./week1/lab1.drawio.pdf)
+[View PDF](./lab1.drawio.pdf)
 
 
