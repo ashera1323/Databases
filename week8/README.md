@@ -13,7 +13,7 @@ Submission is three queries with after/before indexes creation.
 [Solution](./ex1.sql)
 
 ## Exercise 2
-Import the DVD rental database
+Import the DVD rental [database](./dvdrental.zip)
 Using the database, provide a query for each of the following requirements: 
 - The company is preparing its campaign for next Halloween, so the list of movies that have not been rented yet by the clients is needed, whose rating is R or PG-13 and its category is Horror or Sci-fi
 - The company has decided to reward the best stores in each of the cities, so it is necessary to have a list of the stores that have made a greater number of sales in term of money during the last month recorded.
