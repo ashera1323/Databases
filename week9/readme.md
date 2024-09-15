@@ -8,6 +8,7 @@ Steps:
 
 [Solution: python](./ex1.py)
 [Solution: sql](./ex1.sql)
+
 **Conclusion:**
 The "address" table altered with my code (i put longitude and latitude into the column "address2", because it was initially empty for some reason)
  ![alt text](https://github.com/ashera1323/Databases/blob/main/week9/ex1.png)
