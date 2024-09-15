@@ -23,5 +23,5 @@ between the far left and far right columns.
 - Write a complete narrative description of what this EER diagram represents.
 
 [Solution](./ex3.pdf)
-[Description](./ex3%20Description)
+[Description](./ex3description.md)
 ![diagram](./diagram.png)
