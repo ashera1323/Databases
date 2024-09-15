@@ -1,4 +1,4 @@
-NARRATIVE: 
+### NARRATIVE: 
 A company keeps track of computer systems in its offices. Each computer has a unique serial number, 
 a processor, the information about the cost price and the date it was made. 
 Computers can be either laptops or desktop computers. 
@@ -19,42 +19,45 @@ Each accessory has its unique accessory serial number, cost price and Brand.
 Keyboards can different by the number of buttons on them and wired or wirless. Mice has same differences as keyboards.
 Monitors differ in screen sizes.  
 
-ENTITY TYPES: 
-• COMPUTER (Serial number, Processor, Cost, Realised date) 
-• LAPTOP (Brand, Weight, Display size, Color) 
-• DESKTOP 
-• COMPONENT (Serial Id, Producer, Cost) 
-• MEMORY (Type, Capacity, Volatileness) 
-• SOUND CARD (Name, Brand) 
-• VIDEO CARD (Name, Brand) 
-• SOFTWARE (License no, Name, Version) 
-• OPERATING SYSTEM (Name, Edition) 
-• ACCESSORY (Serial nunber, Cost, Brand) 
-• KEYBOARD (Numb of buttoms, Wire/Wireless) 
-• MONITOR (Display size) 
-• MOUSE (Numb of buttoms, Wire/Wireless) 
+### ENTITY TYPES: 
+- COMPUTER (Serial number, Processor, Cost, Realised date)
+- LAPTOP (Brand, Weight, Display size, Color)
+- DESKTOP
+- COMPONENT (Serial Id, Producer, Cost)
+- MEMORY (Type, Capacity, Volatileness)
+- SOUND CARD (Name, Brand)
+- VIDEO CARD (Name, Brand)
+- SOFTWARE (License no, Name, Version)
+- OPERATING SYSTEM (Name, Edition)
+- ACCESSORY (Serial nunber, Cost, Brand)
+- KEYBOARD (Numb of buttoms, Wire/Wireless)
+- MONITOR (Display size)
+- MOUSE (Numb of buttoms, Wire/Wireless) 
 
-RELATIONSHIP TYPES: 
-• OPTIONS 
+### RELATIONSHIP TYPES: 
+#### OPTIONS 
 This is a relationship type which relates DESKTOP and COMPONENT entity types. 
 A single desktop computer can have many components but a single component can 
 belong to only one desktop. This relationship type's cardinality ratio is (1:N). 
-• SUPPORTS (Removable) 
+#### SUPPORTS (Removable) 
 SUPPORTS relationship type has an attribute Removable with a domain set {Yes, No} 
 which states if the component can function properly without particular software 
 application. This relationship type relates SOFTWARE and COMPONENT entity types. 
 A single component can be supported by different software applications and an 
 application can support different components. Cardinality ratio is (M:N) 
-• INSTALLED (Date) This relationship type keeps record of which software is 
+#### INSTALLED (Date) 
+This relationship type keeps record of which software is 
 installed on which computer on which Date. On a single computer different types 
 of software can be installed. Also, a single software can be installed on many 
 computers. Cardinality is (M:N). 
-• INSTALLED OS (Reason) This relationship type relates COMPUTER with the 
+#### INSTALLED OS (Reason) 
+This relationship type relates COMPUTER with the 
 OPERATING_ SYSTEM which is installed. We keep track of the reason a new software 
 is installed. Computer must have only one operating system and a single operating
 system can be installed on many computers. COMPUTER has a total participation 
 constraint for this relationship type and the cardinality is (N:1). 
-• SOLD WITH (Warranty) This relationship type relates COMPUTER and ACCESSORY 
+#### SOLD WITH (Warranty) 
+This relationship type relates COMPUTER and ACCESSORY 
 entity types. It has an Warranty attribute which states for long the warranty is vaild. 
 For accessory to end up in company, it needs to be sold with a computer so ACCESSORY 
 has a total participation constraint for this relationship type. With a single computer 
