@@ -29,7 +29,7 @@ Create functions to execute the following tasks:
 ## Exercise 4
 Create functions to execute the following tasks:
 Query all restaurants on the Rogers Avenue street, for each of them do the following:
-- if it has more than one C grades $/implies$ delete this restaurant
+- if it has more than one C grades $\Longrightarrow$ delete this restaurant
 - otherwise, add another C grade to this restaurant
 
 [Solution](./ex4.py) 
