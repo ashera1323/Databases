@@ -27,3 +27,8 @@ For the previous schema, state what the following queries compute:
 - $(\Pi_{sname}((\sigma_{color=red} \text{Parts}) \Join (\sigma_{cost<100} \text{Catalog})) \Join \text{Supliers}) \cap (\Pi_{sname} ((\sigma_{color=green} \text{Parts}) \Join (\sigma_{cost<100} \text{Catalog}) \Join \text{Suppliers}))$
 - $(\Pi_{sid}((\sigma_{color=red} \text{Parts}) \Join (\sigma_{cost<100} \text{Catalog}) \Join \text{Suppliers})) \cap (\Pi_{sid} ((\sigma_{color=green} \text{Parts}) \Join (\sigma_{cost<100} \text{Catalog}) \Join \text{Supliers}))$
 - $\Pi_{sname} ((\Pi_{sid,sname} ((\sigma_{color=red} \text{Parts}) \Join (\sigma_{cost<100} \text{Catalog}) \Join \text{Suppliers})) \cap (\Pi_{sid,sname}((\sigma_{color=green} \text{Parts}) \Join (\sigma_{cost<100} \text{Catalog}) \Join (\sigma_{cost<100} \text{Catalog}) \Join \text{Suppliers})))$
+
+[Solution](./ex2.pdf)
+
+## Relational algebra notation
+![RA_notation](./ra.png)
